@@ -10,7 +10,7 @@ Este projeto consiste em uma calculadora lógica com interface gráfica desenvol
 ![expressao](https://github.com/Natanael002/Calculadora2/assets/145075911/0e74f99c-5a80-4149-a6fc-01d6b303b2ea)
 ### Validar Expressão.
 ![expressaoinvalida](https://github.com/Natanael002/Calculadora2/assets/145075911/a7cfec0f-6d1b-48f2-9901-00f9649d4fe9)
-### Geração de tabelas verdade para expressões com até 4 variáveis.
+### Geração de tabelas verdade para expressões com até 4 variáveis e se a proposição é contigência, tautologia e contradição.
 ![resultado](https://github.com/Natanael002/Calculadora2/assets/145075911/b9048ad9-02b7-4828-a464-4aa2489b169c)
 
 
