@@ -4,13 +4,13 @@ Este projeto consiste em uma calculadora lógica com interface gráfica desenvol
 
 ## Funcionalidades Principais
 
-- Interface gráfica intuitiva e fácil de usar.
+### Interface gráfica intuitiva e fácil de usar.
 ![image](https://github.com/Natanael002/Calculadora2/assets/145075911/210b46b3-a25a-4cd3-917e-6a0ed88e1287)
-- Realização de operações lógicas básicas como AND, OR, NOT, IF-THEN, IF-AND-ONLY-IF, XOR, XAND.
+### Realização de operações lógicas básicas como AND, OR, NOT, IF-THEN, IF-AND-ONLY-IF, XOR, XAND.
 ![expressao](https://github.com/Natanael002/Calculadora2/assets/145075911/0e74f99c-5a80-4149-a6fc-01d6b303b2ea)
-- Validar Expressão.
+### Validar Expressão.
 ![expressaoinvalida](https://github.com/Natanael002/Calculadora2/assets/145075911/a7cfec0f-6d1b-48f2-9901-00f9649d4fe9)
-- Geração de tabelas verdade para expressões com até 4 variáveis.
+### Geração de tabelas verdade para expressões com até 4 variáveis.
 ![resultado](https://github.com/Natanael002/Calculadora2/assets/145075911/b9048ad9-02b7-4828-a464-4aa2489b169c)
 
 
@@ -53,3 +53,8 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato através do email: (natanael00217@gmail.com).
+
+## Desenvolvedores:
+- Natanael Matias 
+- Gabriel Gonçalves
+- Mateus Fonseca
