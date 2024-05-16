@@ -62,7 +62,7 @@ class VentanaCalculadora(tk.Tk):
         self.configurar_boton(BtIfThen)
         BtIfThen.grid(row= 3, column=3)
 
-        BtIfOnlyIf = Button(self, text='⇔', command=lambda: self.btSimbolos('⇔'))
+        BtIfOnlyIf = Button(self, text='↔', command=lambda: self.btSimbolos('↔'))
         self.configurar_boton(BtIfOnlyIf)
         BtIfOnlyIf.grid(row=4, column=0, pady=5)
 
@@ -105,7 +105,7 @@ class VentanaCalculadora(tk.Tk):
         
         legendas_direita = [
             "Condicional →",
-            "Bicondicional ⇔",
+            "Bicondicional ↔",
             "XOR +",
             "XAND ⊻"
         ]
