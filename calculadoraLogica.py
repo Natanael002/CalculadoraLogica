@@ -22,7 +22,7 @@ def ValidarExpressao(expressaoCalculadora):
             return False, '\nparêntesis desbalanceado'
         else:    
             # Verificar se há operadores sem operandos
-            padrao_operadores_sem_operandos = re.compile(r'[∧∨⇒⇔+⊻](?!\w|[(])|(?<![\w)])[∧∨⇒⇔+⊻]')
+            padrao_operadores_sem_operandos = re.compile(r'[∧∨→↔+⊻](?!\w|[(])|(?<![\w)])[∧∨→↔+⊻]')
             
             if padrao_operadores_sem_operandos.search(expressaoCalculadora):
                 return False, "\nExpressão inválida"
@@ -52,8 +52,8 @@ def tranformar_expression(expression):
     expression = expression.replace('∨', ' or ')
     expression = expression.replace('∧', ' and ')
     expression = expression.replace('~', '~')
-    expression = expression.replace('⇒', '=>')
-    expression = expression.replace('⇔', '=')
+    expression = expression.replace('→', '=>')
+    expression = expression.replace('↔', '=')
     expression = expression.replace('+', ' xor ')
     expression = expression.replace('⊻', ' nand ')
 
