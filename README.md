@@ -11,7 +11,7 @@ Este projeto consiste em uma calculadora lógica com interface gráfica desenvol
 ### Validar Expressão.
 ![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/ad9fd8a1-7e80-4f17-984f-42484f2a370e)
 ![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/39ec962e-7ff3-4207-b920-d194459d74db)
-![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/dc1399ee-5acf-4fef-8d82-340df3f1565f)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/c87bfc58-b309-479e-876e-b6f80922243b)
 ### Geração de tabelas verdade para expressões com até 4 variáveis e se a proposição é contigência, tautologia e contradição.
 ![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/b1b458bb-eb2b-4600-92c5-82e70b10907e)
 
