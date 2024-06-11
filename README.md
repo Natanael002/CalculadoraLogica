@@ -5,13 +5,15 @@ Este projeto consiste em uma calculadora lógica com interface gráfica desenvol
 ## Funcionalidades Principais
 
 ### Interface gráfica intuitiva e fácil de usar.
-![image](https://github.com/Natanael002/Calculadora2/assets/145075911/210b46b3-a25a-4cd3-917e-6a0ed88e1287)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/13b08502-7314-4ce0-9d91-44be2aa66187)
 ### Realização de operações lógicas básicas como AND, OR, NOT, IF-THEN, IF-AND-ONLY-IF, XOR, XAND.
-![expressao](https://github.com/Natanael002/Calculadora2/assets/145075911/0e74f99c-5a80-4149-a6fc-01d6b303b2ea)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/cd14f2b1-83ee-43ab-aaca-a4dd61c42e65)
 ### Validar Expressão.
-![expressaoinvalida](https://github.com/Natanael002/Calculadora2/assets/145075911/a7cfec0f-6d1b-48f2-9901-00f9649d4fe9)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/ad9fd8a1-7e80-4f17-984f-42484f2a370e)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/39ec962e-7ff3-4207-b920-d194459d74db)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/dc1399ee-5acf-4fef-8d82-340df3f1565f)
 ### Geração de tabelas verdade para expressões com até 4 variáveis e se a proposição é contigência, tautologia e contradição.
-![resultado](https://github.com/Natanael002/Calculadora2/assets/145075911/b9048ad9-02b7-4828-a464-4aa2489b169c)
+![image](https://github.com/Natanael002/CalculadoraLogica/assets/145075911/b1b458bb-eb2b-4600-92c5-82e70b10907e)
 
 
 ## Pré-requisitos
@@ -21,7 +23,7 @@ Para executar este projeto, é necessário ter as seguintes bibliotecas instalad
 - Tkinter: Biblioteca padrão do Python para criar interfaces gráficas.
 - Pandas: Biblioteca para manipulação e análise de dados.
 - PandasTable: Extensão do Pandas para exibição de DataFrames em uma GUI.
-- ttg: Biblioteca para gerar tabelas verdade
+- ttg: Biblioteca para gerar e calcular tabela verdade.
 - itertools: Biblioteca que fornece uma série de funções que nos permitem trabalhar com iterações, combinações e permutações de elementos.
 
 Você pode instalar as bibliotecas utilizando o seguinte comando:
