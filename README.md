@@ -1,6 +1,6 @@
 # Calculadora Lógica com Interface Gráfica em Python
 
-Este projeto consiste em uma calculadora lógica com interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. A calculadora permite realizar operações lógicas básicas, tais como conjunção, disjunção, negação, implicação, bicondicional, XOR e XAND. Além disso, é possível gerar tabelas verdade para todas as possibilidades com até 4 variáveis.
+Este projeto consiste em uma calculadora lógica com interface gráfica desenvolvida em Python utilizando a biblioteca Tkinter. A calculadora permite realizar operações lógicas básicas, tais como conjunção, disjunção, negação, condicional, bicondicional, XOR e XAND. Além disso, é possível gerar tabelas verdade para todas as possibilidades com até 4 variáveis.
 
 ## Funcionalidades Principais
 
@@ -21,26 +21,32 @@ Para executar este projeto, é necessário ter as seguintes bibliotecas instalad
 - Tkinter: Biblioteca padrão do Python para criar interfaces gráficas.
 - Pandas: Biblioteca para manipulação e análise de dados.
 - PandasTable: Extensão do Pandas para exibição de DataFrames em uma GUI.
+- ttg: Biblioteca para gerar tabelas verdade
+- itertools: Biblioteca que fornece uma série de funções que nos permitem trabalhar com iterações, combinações e permutações de elementos.
 
 Você pode instalar as bibliotecas utilizando o seguinte comando:
 
 ```bash
+pip install tk
+pip install pandas
 pip install pandas pandastable
+pip install truth-table-generator
 ```
 
 ## Como Utilizar
 
 1. Clone o repositório para sua máquina local.
 2. Certifique-se de ter as bibliotecas mencionadas instaladas.
-3. Execute o arquivo `interface_calculadora.py` para abrir a interface gráfica da calculadora.
+3. Execute o arquivo `tela_calculadora.py` para abrir a interface gráfica da calculadora.
 4. Insira a expressão lógica desejada na caixa de entrada.
 5. Clique no botão "=". O resultado da expressão será exibido na tabela ao lado.
 6. Clique no botão "AC" para limpar o visor.
 
 ## Arquivos do Projeto
 
-- `interface_calculadora.py`: Contém o código para a interface gráfica da calculadora.
-- `calculadora_logica.py`: Contém as funções para validar expressões lógicas e gerar tabelas verdade.
+- `tela_calculadora.py`: Contém o código para a interface gráfica da calculadora.
+- `calculadoraLogica.py`: Contém as funções para validar expressões lógicas e gerar tabelas verdade.
+- `calc_calculator_10824.ico`: Contém o ícone do calculadora.
 
 ## Como Contribuir
 
@@ -58,3 +64,4 @@ Para mais informações ou dúvidas, entre em contato através do email: (natana
 - Natanael Matias 
 - Gabriel Gonçalves
 - Mateus Fonseca
+- Sabrina Gaspar
